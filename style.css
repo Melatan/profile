@@ -1,0 +1,55 @@
+.comforter-regular {
+  font-family: "Comforter", cursive;
+}
+body {
+  background-color: #4A9782;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #4A9782;
+}
+h1 {
+  color:#004030;
+  font-family: "Comforter";
+  font-size: 50px;
+}
+h2 {
+  color: #DCD0A8;
+  font-weight: bold;
+  font-size: 20px;
+}
+a {
+  color: #4A9782;
+  text-decoration: none;
+}
+a:hover {
+  color: #DCD0A8;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.image-resize {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+div {
+  background: #FFF9E5;
+  padding: 20px;
+  margin: 40px;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+.card {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  box-shadow: 2px 2px 3px #DCD0A8;
+}
+.text-center {
+  text-align: center;
+}
