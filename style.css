@@ -12,23 +12,33 @@ body {
 h1 {
   color:#004030;
   font-family: "Comforter";
-  font-size: 50px;
+  font-size: 60px;
 }
 h2 {
   color: #DCD0A8;
-  font-weight: bold;
-  font-size: 20px;
+  font-family: "Comforter";
+  font-weight: lighter;
+  font-size: 40px;
 }
-a {
+.picto {
   color: #4A9782;
   text-decoration: none;
 }
-a:hover {
+.picto:hover {
   color: #DCD0A8;
 }
 .list-inline {
   list-style: none;
   padding-left: 0px;
+
+  li {
+    display: inline;
+    padding: 10px;
+  }
+
+  i {
+    font-size: 30px;
+  }
 }
 .image-resize {
   width: 200px;
@@ -41,15 +51,29 @@ div {
   margin: 40px;
 }
 .container {
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
 }
 .card {
   background: white;
-  padding: 30px;
+  padding: 50px;
   border: 1px solid lightgrey;
+  border-radius: 5px;
   box-shadow: 2px 2px 3px #DCD0A8;
+  text-align: center;
+  margin: 20px 20px;
 }
 .text-center {
   text-align: center;
+}
+.button {
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  background-color: #4A9782;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.button:hover {
+background-color: #DCD0A8;
 }
